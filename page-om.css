@@ -1,0 +1,19 @@
+                                
+                                
+                                
+                                /*BILLETERIE*/
+.card {
+    border-color: rgba(53,93,235,0.75) ;
+    box-shadow: 10px 10px 5px 0px rgba(53,93,235,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(53,93,235,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(53,93,235,0.75);
+}
+
+.logo
+{
+    height: 50px;
+    width:50;
+    
+}
+
+f
