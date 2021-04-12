@@ -9,17 +9,13 @@
     margin-top: 10px;
     border-radius: 10px;
     background-color:#8C9596 ;
-     padding: 5px;
+    padding: 5px;
 }
 .tab
 {
     border-radius: 10px !important;
 }
 
-.equipe
-{
-
-}
 
 .monter
 {
@@ -41,7 +37,7 @@
 color: red;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1082px) {
     .effacer {
         display: none;
         visibility: collapse;
@@ -62,6 +58,31 @@ color: red;
     }
 }
 
+@media screen and (min-width:990px) {
+    .rslt {
+        display: none;
+        
+    }
+}
+
+.victoire
+{
+    padding: 10px;
+    
+}
+
+@media screen and (min-width:990px) {
+    .victoire {
+        margin-right: 20px;
+        
+    }
+}
+
+@media screen and (min-width:990px) {
+    .text{
+        line-height: 30px;
+    }
+}
 
 
 
@@ -86,7 +107,10 @@ color: red;
     border-radius: 20px;
 }
 
-
+.info
+{
+    text-align: justify;
+}
 
 
                                 
@@ -114,10 +138,12 @@ color: red;
 
                                 /*PALMARES*/
 
-.titre1
+.trophée
 {
     margin-top: 10px;
+}
+
+.coupe
+{
     border-radius: 10px;
-    background-color:#8C9596 ;
-    padding: 5px;
 }
