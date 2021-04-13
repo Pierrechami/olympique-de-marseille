@@ -37,7 +37,7 @@
 color: red;
 }
 
-@media screen and (max-width: 1082px) {
+@media screen and (max-width: 1266px) {
     .effacer {
         display: none;
         visibility: collapse;
@@ -49,6 +49,11 @@ color: red;
         display: none;
         visibility: collapse;
     }
+    .descendre {
+        display: none;
+        visibility: collapse;
+    }
+    
 }
 
 @media screen and (max-width:732px) {
@@ -58,21 +63,21 @@ color: red;
     }
 }
 
-@media screen and (min-width:990px) {
+/*@media screen and (min-width:990px) {
     .rslt {
         display: none;
         
     }
-}
+}*/
 
-.victoire
+.score
 {
     padding: 10px;
     
 }
 
 @media screen and (min-width:990px) {
-    .victoire {
+    .score {
         margin-right: 20px;
         
     }
@@ -84,7 +89,10 @@ color: red;
     }
 }
 
-
+.alinea
+{
+    text-indent: 40px;
+}
 
 
 .t-dirigent
@@ -125,15 +133,20 @@ color: red;
 
 .card {
     border-color: rgba(53,93,235,0.75) ;
-    box-shadow: 10px 10px 5px 0px rgba(53, 93, 235, 0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(53,93,235,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(53,93,235,0.75);
+    box-shadow: 0px 1px 20px 9px rgba(10,109,170,0.78);
+-webkit-box-shadow: 0px 1px 20px 9px rgba(10,109,170,0.78);
+-moz-box-shadow: 0px 1px 20px 9px rgba(10,109,170,0.78);
+
 }
 
 .logo
 {
     height: 50px;
-    width:50;    
+    width:50;   
+    box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9);
+    -webkit-box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9);
+    -moz-box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9); 
+    margin-top: 10px;
 }
 
                                 /*PALMARES*/
@@ -146,4 +159,9 @@ color: red;
 .coupe
 {
     border-radius: 10px;
+    box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9);
+-webkit-box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9);
+-moz-box-shadow: 0px 0px 20px 8px rgba(251,253,255,0.9);
+    
 }
+
